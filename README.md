@@ -21,6 +21,13 @@ You can then enable any (or all) of:
 * piechart
 * basicgrid
 
+| Chart     | Compatibility 2.11 |
+|-----------|--------------------|
+| linechart | yes                |
+| barchart  | yes                |
+| piechart  | yes                |
+| basicgrid | no                 |
+
 Finally, restart your webserver. You should see the new chart types as options
 in the view type's list on any resource that's in the DataStore.
 
